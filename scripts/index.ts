@@ -21,6 +21,8 @@ module BuzzFocusApp {
             var receivedElement = parentElement.querySelector('.received');
             listeningElement.setAttribute('style', 'display:none;');
             receivedElement.setAttribute('style', 'display:block;');
+
+            new BuzzFocusProcess(document.querySelector('#BuzzFocusProcess'));
         }
 
         function onPause() {
