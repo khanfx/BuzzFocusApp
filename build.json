@@ -1,10 +1,10 @@
 {
      "android": {
          "release": {
-             "keystore": "",
-             "storePassword": "",
-             "alias": "",
-             "password" : "",
+             "keystore": "c:/fahd/projects/khanfx.keystore",
+             "storePassword": "khanfxBlue$keystore",
+             "alias": "khanfx",
+             "password" : "khanfxBlue$keystore",
              "keystoreType": ""
          }
      }
