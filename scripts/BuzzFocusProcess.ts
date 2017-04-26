@@ -84,11 +84,11 @@
             this._timeoutX = 0;
             this._timeoutF = 0;
             if (buzz)
-                navigator.vibrate([BUZZ, BUZZ, BUZZ]);
+                navigator.vibrate([BUZZ*2, BUZZ*2, BUZZ*2]);
         }
 
         private log(s: string) {
-            this._log.textContent += '\r\n' + s;
+            this._log.textContent += s + '\r\n';
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="com.khanfx.BuzzFocusApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" defaultlocale="en-US">
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="com.khanfx.BuzzFocusApp" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" defaultlocale="en-US" android-versionCode="1">
   <name>Buzz &amp; Unfocus</name>
   <description>A medition timer that relies only on vibration.</description>
   <author href="http://cordova.io" email="dev@cordova.apache.org">Fahd Khan</author>
@@ -107,4 +107,7 @@
     <splash src="res/screens/wp8/SplashScreenImage.png" width="768" height="1280" />
   </platform>
   <plugin name="cordova-plugin-vibration" version="2.1.4" />
+  <preference name="android-minSdkVersion" value="19" />
+  <preference name="android-targetSdkVersion" value="19" />
+  <preference name="ShowTitle" value="True" />
 </widget>
